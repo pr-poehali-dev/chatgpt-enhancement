@@ -1,4 +1,13 @@
 export default function HeroBanner() {
+  const heroImages = [
+    "https://cdn.poehali.dev/projects/55d8ca05-0173-4913-af12-6049cf3ca9cd/files/f69ed746-12f7-4f2d-90fa-4dc906f7c11a.jpg",
+    "https://cdn.poehali.dev/projects/55d8ca05-0173-4913-af12-6049cf3ca9cd/files/488cf0d1-20e3-4f80-af79-71eb5542ed43.jpg",
+    "https://cdn.poehali.dev/projects/55d8ca05-0173-4913-af12-6049cf3ca9cd/files/33de88db-1716-4868-a421-34c3f5eb91ca.jpg",
+    "https://cdn.poehali.dev/projects/55d8ca05-0173-4913-af12-6049cf3ca9cd/files/698227b6-ed78-49da-9635-5895f2774af2.jpg",
+    "https://cdn.poehali.dev/projects/55d8ca05-0173-4913-af12-6049cf3ca9cd/files/e83ff95b-b2dd-4122-95d9-68e5a6168ebc.jpg",
+    "https://cdn.poehali.dev/projects/55d8ca05-0173-4913-af12-6049cf3ca9cd/files/d50f80e4-def0-44fe-824a-891b0262c723.jpg",
+  ]
+
   return (
     <section className="relative bg-gradient-to-r from-rose-500 via-pink-500 to-fuchsia-500 text-white overflow-hidden">
       {/* Декоративные круги */}
@@ -25,6 +34,24 @@ export default function HeroBanner() {
               <a href="#" className="bg-white/20 backdrop-blur text-white font-semibold px-6 py-3 rounded-full hover:bg-white/30 transition border border-white/30">
                 Как мы работаем
               </a>
+            </div>
+          </div>
+
+          {/* Коллаж фотографий */}
+          <div className="flex-shrink-0 hidden md:block">
+            <div className="grid grid-cols-3 gap-2 w-[280px]">
+              {heroImages.map((img, idx) => (
+                <div
+                  key={idx}
+                  className="aspect-square rounded-xl overflow-hidden border-2 border-white/30 shadow-lg hover:scale-105 transition-transform duration-300"
+                >
+                  <img
+                    src={img}
+                    alt="Товар"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              ))}
             </div>
           </div>
 
