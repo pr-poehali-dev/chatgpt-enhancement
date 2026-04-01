@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Send contact form to Telegram",
+    "method": "POST",
+    "path": "/",
+    "body": {
+      "name": "Тест",
+      "email": "test@example.com",
+      "phone": "+7 999 000-00-00",
+      "message": "Это тестовое сообщение с формы обратной связи"
+    },
+    "expectedStatus": 200
+  },
+  {
+    "name": "Missing required fields",
+    "method": "POST",
+    "path": "/",
+    "body": {
+      "email": "test@example.com"
+    },
+    "expectedStatus": 400
+  }
+]
