@@ -25,7 +25,7 @@ export default function HeroBanner() {
               <span className="text-yellow-300">по смешным ценам!</span>
             </h1>
             <p className="text-rose-100 text-lg mb-6 max-w-md">
-              Более <strong>500+ лотов</strong> от брендов Victoria's Secret, Calvin Klein, La Perla и других. Все вещи проверены и постираны.
+              Более <strong>500+ лотов</strong> женского, мужского и детского белья. Все вещи проверены и постираны.
             </p>
             <div className="flex flex-wrap gap-3 justify-center md:justify-start">
               <a href="#catalog" className="bg-white text-rose-600 font-bold px-6 py-3 rounded-full hover:bg-rose-50 transition shadow-lg">

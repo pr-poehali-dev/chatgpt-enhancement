@@ -12,6 +12,7 @@ export interface Product {
   reviews: number
   isNew?: boolean
   isSale?: boolean
+  isHit?: boolean
   description: string
   color: string
 }

@@ -64,7 +64,7 @@ export default function CartDrawer({ open, onClose, items, onRemove }: CartDrawe
                     {item.name}
                   </p>
                   <p className="text-xs text-gray-400 mt-0.5">
-                    {item.brand} • {item.size}
+                    Размер {item.size}
                   </p>
                   <div className="flex items-center justify-between mt-1">
                     <span className="text-rose-500 font-bold text-sm">

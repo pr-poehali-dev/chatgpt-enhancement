@@ -43,6 +43,11 @@ export default function ProductCard({ product, onAddToCart }: ProductCardProps) 
               -{discount}%
             </span>
           )}
+          {product.isHit && (
+            <span className="bg-yellow-400 text-yellow-900 text-xs font-black px-2 py-0.5 rounded-full shadow-sm">
+              🔥 Хит
+            </span>
+          )}
           {product.isNew && (
             <span className="bg-green-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
               Новинка
@@ -74,8 +79,6 @@ export default function ProductCard({ product, onAddToCart }: ProductCardProps) 
       {/* Контент */}
       <div className="p-3 flex flex-col flex-1">
         <div className="flex items-center gap-1 mb-1">
-          <span className="text-xs text-gray-400 font-medium">{product.brand}</span>
-          <span className="text-gray-200">•</span>
           <span className="text-xs text-gray-400">Размер {product.size}</span>
         </div>
 
