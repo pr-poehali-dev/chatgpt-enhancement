@@ -11,10 +11,10 @@ function Feature() {
           </div>
           <div className="flex gap-2 flex-col">
             <h2 className="text-3xl md:text-5xl tracking-tighter lg:max-w-xl font-open-sans-custom text-white [text-shadow:_0_4px_20px_rgb(0_0_0_/_60%)]">
-              Ключевые функции
+              Всё что нужно — уже внутри
             </h2>
             <p className="text-lg max-w-xl lg:max-w-xl leading-relaxed tracking-tight text-gray-300 font-open-sans-custom [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)]">
-              Откройте мощные возможности, которые делают нашу платформу лучшим выбором для вашего бизнеса.
+              Никакого лишнего инструментария. Только то, что реально ускоряет создание продукта.
             </p>
           </div>
           <div className="flex gap-10 pt-12 flex-col w-full">
@@ -22,52 +22,52 @@ function Feature() {
               <div className="flex flex-row gap-6 w-full items-start">
                 <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Командная работа</p>
+                  <p className="text-white font-open-sans-custom">Генерация из текста</p>
                   <p className="text-gray-300 text-sm font-open-sans-custom">
-                    Удобное и эффективное взаимодействие в команде.
+                    Опишите интерфейс — получите готовый компонент за секунды.
                   </p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
                 <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Автоматизация</p>
+                  <p className="text-white font-open-sans-custom">Живой предпросмотр</p>
                   <p className="text-gray-300 text-sm font-open-sans-custom">
-                    Мощная и простая автоматизация рабочих процессов.
+                    Видите результат в реальном времени, без сохранений и перезагрузок.
                   </p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
                 <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Масштабируемость</p>
+                  <p className="text-white font-open-sans-custom">Экспорт кода</p>
                   <p className="text-gray-300 text-sm font-open-sans-custom">
-                    Инфраструктура, растущая вместе с вашими потребностями.
+                    Скачайте чистый React/HTML-код и используйте в своём проекте.
                   </p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 w-full items-start">
                 <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Безопасность</p>
-                  <p className="text-gray-300 text-sm font-open-sans-custom">Надежная и комплексная защита данных.</p>
+                  <p className="text-white font-open-sans-custom">Библиотека промптов</p>
+                  <p className="text-gray-300 text-sm font-open-sans-custom">Сотни готовых шаблонов для любых задач — от лендингов до дашбордов.</p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
                 <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Код-ревью</p>
+                  <p className="text-white font-open-sans-custom">Командный доступ</p>
                   <p className="text-gray-300 text-sm font-open-sans-custom">
-                    Интуитивный и эффективный обзор кода.
+                    Работайте вместе — комментарии, правки и история в одном месте.
                   </p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
                 <Check className="w-[1.05rem] h-[1.05rem] mt-2 text-white" strokeWidth={3} />
                 <div className="flex flex-col gap-1">
-                  <p className="text-white font-open-sans-custom">Облачный деплой</p>
+                  <p className="text-white font-open-sans-custom">Деплой в один клик</p>
                   <p className="text-gray-300 text-sm font-open-sans-custom">
-                    Быстрое и надежное развертывание в облаке.
+                    Публикуйте прямо из редактора — хостинг уже включён.
                   </p>
                 </div>
               </div>

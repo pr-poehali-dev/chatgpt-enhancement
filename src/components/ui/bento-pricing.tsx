@@ -91,33 +91,33 @@ export function BentoPricing() {
         </div>
         <div className="flex items-center gap-3 p-3">
           <Badge variant="secondary" className="bg-white/10 text-white border-white/20 font-open-sans-custom text-xs">
-            ПРЕМИУМ
+            ПРО
           </Badge>
           <Badge
             variant="outline"
             className="hidden lg:flex bg-white/5 text-white border-white/20 font-open-sans-custom text-xs"
           >
-            <SparklesIcon className="me-1 size-3" /> Популярный
+            <SparklesIcon className="me-1 size-3" /> Самый популярный
           </Badge>
           <div className="ml-auto">
             <Button size="sm" className="bg-white text-black hover:bg-gray-100 font-open-sans-custom text-xs">
-              Подписаться
+              Начать
             </Button>
           </div>
         </div>
         <div className="flex flex-col p-3 lg:flex-row">
           <div className="pb-2 lg:w-[30%]">
             <span className="font-mono text-3xl font-semibold tracking-tight text-white [text-shadow:_0_4px_20px_rgb(0_0_0_/_60%)]">
-              2 000 ₽
+              1 490 ₽
             </span>
             <span className="text-gray-300 text-xs font-open-sans-custom">/мес</span>
           </div>
           <ul className="text-gray-300 grid gap-2 text-xs lg:w-[70%] font-open-sans-custom">
             {[
-              "2 000 ₽ кредитов включено ежемесячно",
-              "Докупайте кредиты сверх месячного лимита",
-              "5x увеличенный лимит вложений",
-              "Импорт дизайнов из популярных инструментов",
+              "Безлимитная генерация интерфейсов",
+              "Экспорт кода без ограничений",
+              "Приоритетная обработка запросов",
+              "Импорт из Figma и других инструментов",
             ].map((f, i) => (
               <li key={i} className="flex items-center gap-2">
                 <Check className="w-[1.05rem] h-[1.05rem] text-white flex-shrink-0" strokeWidth={3} />
@@ -129,50 +129,50 @@ export function BentoPricing() {
       </div>
 
       <PricingCard
-        titleBadge="СТАРТ"
+        titleBadge="БЕСПЛАТНО"
         priceLabel="0 ₽"
         features={[
-          "500 ₽ кредитов включено ежемесячно",
-          "Деплой приложений в облако",
-          "Визуальное редактирование",
-          "Синхронизация с Git",
+          "До 10 генераций в месяц",
+          "Публичные проекты",
+          "Базовые шаблоны",
+          "Экспорт в HTML",
         ]}
         className="lg:col-span-3"
-        cta="Начать"
+        cta="Попробовать"
       />
 
       <PricingCard
         titleBadge="КОМАНДА"
-        priceLabel="3 000 ₽"
+        priceLabel="2 490 ₽"
         priceSuffix="/чел/мес"
         features={[
-          "3 000 ₽ кредитов на участника ежемесячно",
-          "Единый биллинг и управление командой",
-          "Общие чаты и совместная работа",
+          "Всё из тарифа ПРО",
+          "Единое рабочее пространство",
+          "Совместное редактирование в реальном времени",
         ]}
         className="lg:col-span-4"
       />
 
       <PricingCard
-        titleBadge="БИЗНЕС"
-        priceLabel="10 000 ₽"
-        priceSuffix="/чел/мес"
-        features={["3 000 ₽ кредитов на участника ежемесячно", "Отключение обучения по умолчанию", "Полный доступ к API"]}
+        titleBadge="СТАРТАП"
+        priceLabel="4 990 ₽"
+        priceSuffix="/мес"
+        features={["До 10 участников", "Кастомные стили и брендинг", "Полный доступ к API"]}
         className="lg:col-span-4"
       />
 
       <PricingCard
-        titleBadge="КОРПОРАЦИЯ"
+        titleBadge="ЭНТЕРПРАЙЗ"
         priceLabel="По запросу"
         priceSuffix=""
         features={[
-          "Отключение обучения по умолчанию",
-          "SAML SSO",
-          "Приоритетный доступ",
-          "Персональная поддержка",
+          "Неограниченное количество участников",
+          "SAML SSO и корпоративная безопасность",
+          "SLA и выделенный менеджер",
+          "On-premise развёртывание",
         ]}
         className="lg:col-span-8"
-        cta="Связаться"
+        cta="Обсудить"
       />
     </div>
   )

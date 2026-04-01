@@ -159,18 +159,18 @@ export default function Index() {
           <div className="mx-auto max-w-4xl">
             <div className="text-center px-0 leading-5">
               <h1 className="mb-8 text-balance text-5xl tracking-tight text-white [text-shadow:_0_4px_20px_rgb(0_0_0_/_60%)] md:text-6xl lg:text-8xl">
-                <span className="font-open-sans-custom not-italic">Идея.</span>{" "}
-                <span className="font-serif italic">Промпт.</span>{" "}
-                <span className="font-open-sans-custom not-italic">Результат.</span>
+                <span className="font-open-sans-custom not-italic">Пишешь.</span>{" "}
+                <span className="font-serif italic">Видишь.</span>{" "}
+                <span className="font-open-sans-custom not-italic">Запускаешь.</span>
               </h1>
 
               <p className="mb-8 mx-auto max-w-2xl text-pretty leading-relaxed text-gray-300 [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)] font-thin font-open-sans-custom tracking-wide leading-7 text-xl">
-                дизайнер, разработчик или просто любопытный — возьми идею,{" "}
-                <span className="font-serif italic">опиши</span> её и наблюдай, как она оживает
+                опиши интерфейс словами —{" "}
+                <span className="font-serif italic">ИИ соберёт</span> его за секунды. без кода, без дизайнера, без ожидания
               </p>
 
               <div className="flex justify-center">
-                <ShinyButton className="px-8 py-3 text-base">начать</ShinyButton>
+                <ShinyButton className="px-8 py-3 text-base">попробовать бесплатно</ShinyButton>
               </div>
             </div>
           </div>
@@ -201,11 +201,10 @@ export default function Index() {
           <div className="relative z-10 mx-auto w-full max-w-5xl">
             <div className="mx-auto mb-10 max-w-2xl text-center">
               <h1 className="text-4xl font-extrabold tracking-tight lg:text-6xl text-white [text-shadow:_0_4px_20px_rgb(0_0_0_/_60%)] font-open-sans-custom">
-                Тарифы и цены
+                Тарифы
               </h1>
               <p className="text-gray-300 mt-4 text-sm md:text-base font-open-sans-custom [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)]">
-                Выберите подходящий план. От индивидуальных авторов до корпоративных команд — гибкие
-                тарифы для вашего успеха.
+                Начните бесплатно. Масштабируйтесь когда будете готовы — от соло-проектов до корпоративных продуктов.
               </p>
             </div>
             <BentoPricing />
@@ -234,7 +233,7 @@ export default function Index() {
                 О нас
               </h1>
               <p className="text-gray-300 mt-4 text-sm md:text-base font-open-sans-custom [text-shadow:_0_2px_10px_rgb(0_0_0_/_50%)]">
-                Узнайте больше о нашей миссии, видении и ценностях, которые движут нами.
+                Кто мы и зачем мы это делаем.
               </p>
             </div>
             <AboutQuote />
@@ -258,18 +257,18 @@ export default function Index() {
 
           <div className="relative z-10 mx-auto w-full max-w-5xl mt-[5vh]">
             <ContactCard
-              title="Свяжитесь с нами"
-              description="Если у вас есть вопросы о наших услугах или нужна помощь, заполните форму. Мы стараемся отвечать в течение 1 рабочего дня."
+              title="Напишите нам"
+              description="Есть идея или вопрос? Заполните форму — мы отвечаем в течение нескольких часов и готовы обсудить любой проект."
               contactInfo={[
                 {
                   icon: MailIcon,
                   label: "Почта",
-                  value: "hello@promptcraft.dev",
+                  value: "hi@promptcraft.dev",
                 },
                 {
                   icon: PhoneIcon,
                   label: "Телефон",
-                  value: "+7 (495) 123-45-67",
+                  value: "+7 (800) 000-00-00",
                 },
                 {
                   icon: MapPinIcon,
